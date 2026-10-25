@@ -15,7 +15,8 @@
   ],
   "wins": 25,
   "losses": 5,
-  "mcnemar_p": 0.00032491423189640045
+  "mcnemar_p": 0.00032491423189640045,
+  "holm_p": 0.002274399623274803
  },
  {
   "comparison": "Hypothetical-Minds-style",
@@ -33,7 +34,8 @@
   ],
   "wins": 26,
   "losses": 8,
-  "mcnemar_p": 0.0029350556433200836
+  "mcnemar_p": 0.0029350556433200836,
+  "holm_p": 0.014675278216600418
  },
  {
   "comparison": "CoELA-style",
@@ -51,7 +53,8 @@
   ],
   "wins": 21,
   "losses": 9,
-  "mcnemar_p": 0.04277394525706768
+  "mcnemar_p": 0.04277394525706768,
+  "holm_p": 0.17109578102827072
  },
  {
   "comparison": "Ask-when-unsure",
@@ -69,7 +72,8 @@
   ],
   "wins": 18,
   "losses": 12,
-  "mcnemar_p": 0.361594608053565
+  "mcnemar_p": 0.361594608053565,
+  "holm_p": 0.361594608053565
  },
  {
   "comparison": "ReAct + dialogue",
@@ -87,7 +91,8 @@
   ],
   "wins": 13,
   "losses": 6,
-  "mcnemar_p": 0.1670684814453125
+  "mcnemar_p": 0.1670684814453125,
+  "holm_p": 0.334136962890625
  },
  {
   "comparison": "LLawCo-style",
@@ -105,7 +110,8 @@
   ],
   "wins": 15,
   "losses": 6,
-  "mcnemar_p": 0.0783538818359375
+  "mcnemar_p": 0.0783538818359375,
+  "holm_p": 0.2350616455078125
  },
  {
   "comparison": "ProACT-style",
@@ -123,7 +129,8 @@
   ],
   "wins": 21,
   "losses": 4,
-  "mcnemar_p": 0.0009105205535888672
+  "mcnemar_p": 0.0009105205535888672,
+  "holm_p": 0.005463123321533203
  },
  {
   "comparison": "one-step table",

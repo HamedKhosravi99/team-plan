@@ -98,12 +98,19 @@ def figure2() -> list:
                      "team_plan_success": float(r.mean()), "baseline_success": float(o.mean()),
                      "gain_points": 100 * float(d.mean()), "ci95_points": [100 * lo, 100 * hi],
                      "wins": w, "losses": l, "mcnemar_p": ar._mcnemar_p(w, l)})
+    # Holm correction over the seven comparisons with other agents (the learned-value rows are a separate question)
+    agents = [x for x in rows if x["run"] != "learned_value_heldout"]
+    running = 0.0
+    for rank, x in enumerate(sorted(agents, key=lambda x: x["mcnemar_p"])):
+        running = max(running, min(1.0, (len(agents) - rank) * x["mcnemar_p"])); x["holm_p"] = running
     _save("figure2", rows)
-    print(f"{'Figure 2':32s} {'n':>3s} {'Team-Plan':>9s} {'baseline':>8s} {'gain [95% interval]':>21s} {'W/L':>6s} {'p':>6s}")
+    print(f"{'Figure 2':32s} {'n':>3s} {'Team-Plan':>9s} {'baseline':>8s} {'gain [95% interval]':>21s} {'W/L':>6s} {'p':>6s}"
+          f" {'Holm p':>7s}")
     for x in rows:
         ci = "[{}, {}]".format(*(f"{v:+.0f}" if round(v) else "0" for v in x["ci95_points"]))
+        holm = f"{x['holm_p']:7.3f}" if "holm_p" in x else ""
         print(f"{x['comparison']:32s} {x['pairs']:3d} {100 * x['team_plan_success']:8.0f}% {100 * x['baseline_success']:7.0f}% "
-              f"{x['gain_points']:+7.0f} {ci:>13s} {x['wins']:3d}/{x['losses']:<2d} {x['mcnemar_p']:6.3f}")
+              f"{x['gain_points']:+7.0f} {ci:>13s} {x['wins']:3d}/{x['losses']:<2d} {x['mcnemar_p']:6.3f} {holm}")
     return rows
 
 
