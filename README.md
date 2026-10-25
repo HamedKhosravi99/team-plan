@@ -3,11 +3,25 @@
 Code and results for **When Should an AI Agent Step In? Reinforcement Learning and Evaluation under Partner
 Uncertainty** by Hamed Khosravi and Xiaoming Huo (Georgia Institute of Technology).
 
+<p align="center">
+  <img src="docs/assets/team_plan_demo.gif" width="800" alt="Two robots tidy a kitchen. The partner leaves the plates untouched, Team-Plan updates its belief about why and changes its choice from a reminder to a takeover.">
+</p>
+<p align="center"><em>The paper's running example, animated. The partner leaves the plates untouched, Team-Plan
+updates its belief about why, and the intervention with the largest expected gain for the whole task changes from a
+reminder to a takeover. A schematic with illustrative numbers, not a simulator recording
+(<a href="docs/assets/team_plan_demo.mp4">MP4 version</a>).</em></p>
+
 Two robots share a household task. When the partner leaves an assignment unfinished, the second robot can remind it,
 tell it where an object is, take over, or continue its own work, without knowing what went wrong. Team-Plan keeps a
 belief over the partner's problem and scores each intervention by its expected effect on full-task success, the
 product of how much it helps its targets (benefit) and how likely the remaining work is to finish (importance). It
 learns delayed effects from simulated rewards and compares uncertain choices with simulated rollouts.
+
+<p align="center">
+  <img src="docs/assets/overview.png" width="820" alt="Team-Plan overview: hidden causes, one decision of Team-Plan, and the main results">
+</p>
+<p align="center"><em>Overview, Figure 1 of the paper. (a) Each hidden cause calls for a different intervention.
+(b) One Team-Plan decision. (c) The main results.</em></p>
 
 This repository contains
 
@@ -32,6 +46,27 @@ python -m pytest -q                  # 53 tests
 
 `python scripts/reproduce.py figure2` recomputes a single artifact. The choices are `figure2`, `figure3`,
 `figure_c1`, `table_d1`, `appendix_d`, `coverage` and `theory`.
+
+## Results at a glance
+
+**Team-Plan against other agents in PARTNR** (Figure 2). Success of Team-Plan and each baseline on the same
+episodes, with 95% cluster-bootstrap intervals, wins and losses on the pairs only one side solved, and exact McNemar
+tests. Recompute with `python scripts/reproduce.py figure2`.
+
+<p align="center"><img src="docs/assets/partnr_results.png" width="820" alt="Paired PARTNR success of Team-Plan and each baseline"></p>
+
+**Why averaging benefit and importance misleads** (Figure 3). When one wrong belief underlies several assignments,
+the cause-blind score overvalues a takeover in tasks where every assignment must finish (AND) and undervalues it where
+any one finished assignment is enough (OR). The error almost disappears when each assignment has its own belief.
+Recompute with `python scripts/reproduce.py figure3`.
+
+<p align="center"><img src="docs/assets/bias.png" width="420" alt="Bias of the cause-blind score for a takeover"></p>
+
+**Learning delayed effects** (Figure C1). Reward of each policy in three synthetic settings. With ten decisions per
+episode the learned value earns clearly more than one-step and QMDP-style planning. Recompute with
+`python scripts/reproduce.py figure_c1`.
+
+<p align="center"><img src="docs/assets/synthetic_reward.png" width="720" alt="Synthetic reward of each policy in three settings"></p>
 
 ## Paper to code and data
 
@@ -106,7 +141,11 @@ partnr/                    PARTNR integration, installed into a partnr-planner c
 scripts/reproduce.py       recomputes the paper's numbers from results/
 results/                   run outputs (see results/README.md) and derived JSON
 tests/                     unit tests, including an offline harness for the PARTNR planner
+docs/make_animation.py     draws the animation at the top of this page
+docs/assets/               animation, its MP4 version and the figures shown on this page
 ```
+
+To redraw the animation, run `python docs/make_animation.py --mp4` (the MP4 needs `pip install imageio-ffmpeg`).
 
 ## Re-running the experiments
 
