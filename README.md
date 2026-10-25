@@ -4,12 +4,13 @@ Code and results for **When Should an AI Agent Step In? Reinforcement Learning a
 Uncertainty** by Hamed Khosravi and Xiaoming Huo (Georgia Institute of Technology).
 
 <p align="center">
-  <img src="docs/assets/team_plan_demo.gif" width="800" alt="Two robots tidy a kitchen. The partner leaves the plates untouched, Team-Plan updates its belief about why and changes its choice from a reminder to a takeover.">
+  <img src="docs/assets/team_plan_demo.gif" width="900" alt="Robot A leaves the plates untouched. Robot B uses Team-Plan to decide whether to step in and how, first sending a reminder and then taking over after a failed pick.">
 </p>
-<p align="center"><em>The paper's running example, animated. The partner leaves the plates untouched, Team-Plan
-updates its belief about why, and the intervention with the largest expected gain for the whole task changes from a
-reminder to a takeover. A schematic with illustrative numbers, not a simulator recording
-(<a href="docs/assets/team_plan_demo.mp4">MP4 version</a>).</em></p>
+<p align="center"><em>The paper's running example, animated. Robot A leaves the plates untouched, and Robot B uses
+Team-Plan to decide whether to step in and how. Team-Plan weighs the possible causes, scores each kind of help by its
+gain for the whole task, sends a reminder, and switches to a takeover once a failed pick points to a weak grip.
+A schematic with illustrative numbers, not a simulator recording
+(<a href="docs/assets/team_plan_demo.mp4">full-resolution MP4</a>).</em></p>
 
 Two robots share a household task. When the partner leaves an assignment unfinished, the second robot can remind it,
 tell it where an object is, take over, or continue its own work, without knowing what went wrong. Team-Plan keeps a
