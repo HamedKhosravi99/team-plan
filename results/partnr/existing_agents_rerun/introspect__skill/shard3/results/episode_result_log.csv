@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+27,"Put spoons, forks, and knives on the bedside table in the bedroom. Three of each, please.",51.0,6.0,0,1630.2081971168518,5433.0,0.6666666666666666,0.0
+33,Move the picture frame from the bedside table to the dresser in the bedroom.,51.0,11.0,0,1503.7890508174896,4823.0,0.0,0.0
+45,"Help me set the table for people in the dining room. Place plates, glasses, and forks at each setting. There should be four.",51.0,38.0,0,2559.89870262146,3060.0,0.75,0.0
+39,"Please put an apple in the fridge, my credit card on the bedside table, and the teapot on the living room table.",51.0,51.0,0,1942.5443274974823,1335.0,0.3333333333333333,0.0
+21,Place the toy airplane and toy bee on another bedroom table. Put the plant saucer on the same bedside table. Move the cushion to a different bedroom chair.,11.0,44.0,0,2519.860420227051,19987.0,0.75,0.0

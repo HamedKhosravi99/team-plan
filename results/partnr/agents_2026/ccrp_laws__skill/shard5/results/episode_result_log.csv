@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+29,"Help me move some items from the bedroom to the hallway. Place the credit card, backpack, and sushi mat on the hallway table.",2.0,34.0,0,1278.6812119483948,5625.0,1.0,1.0
+35,Help me prepare lunch on the counter. Move the two toy vehicles and the toy animal to the counter. Leave the spoon where it is.,13.0,8.0,0,675.0066142082214,2386.0,1.0,1.0
+41,"Bring two mugs, two bread, and kettle from the kitchen to the table in the living room.",2.0,9.0,0,475.11491656303406,3231.0,0.8,0.0
+47,"Move the sushi mat, spatula, and bowl from the dining room table to the kitchen counter.",51.0,51.0,0,2639.4803378582,10177.0,1.0,1.0
+23,Help me move some things around. Put the sponge on the bedside table. Move the action figures to the stand in the living room. Put the plant saucer on the kitchen counter.,3.0,38.0,0,3160.5134222507477,19985.0,1.0,1.0

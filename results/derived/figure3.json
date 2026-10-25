@@ -1,0 +1,74 @@
+[
+ {
+  "task": "AND",
+  "q": 0.15,
+  "object_beliefs": 1,
+  "bias": 0.06390020883454686
+ },
+ {
+  "task": "AND",
+  "q": 0.15,
+  "object_beliefs": 2,
+  "bias": 0.046780686828881285
+ },
+ {
+  "task": "AND",
+  "q": 0.15,
+  "object_beliefs": 4,
+  "bias": 0.010977964952377475
+ },
+ {
+  "task": "AND",
+  "q": 0.5,
+  "object_beliefs": 1,
+  "bias": 0.10394367074013666
+ },
+ {
+  "task": "AND",
+  "q": 0.5,
+  "object_beliefs": 2,
+  "bias": 0.04469472160029294
+ },
+ {
+  "task": "AND",
+  "q": 0.5,
+  "object_beliefs": 4,
+  "bias": 0.0023724449991211274
+ },
+ {
+  "task": "OR",
+  "q": 0.15,
+  "object_beliefs": 1,
+  "bias": -0.05944806900642187
+ },
+ {
+  "task": "OR",
+  "q": 0.15,
+  "object_beliefs": 2,
+  "bias": -0.02055821493200624
+ },
+ {
+  "task": "OR",
+  "q": 0.15,
+  "object_beliefs": 4,
+  "bias": -0.0138930682148775
+ },
+ {
+  "task": "OR",
+  "q": 0.5,
+  "object_beliefs": 1,
+  "bias": -0.09981238187294929
+ },
+ {
+  "task": "OR",
+  "q": 0.5,
+  "object_beliefs": 2,
+  "bias": -0.04835604679560544
+ },
+ {
+  "task": "OR",
+  "q": 0.5,
+  "object_beliefs": 4,
+  "bias": -0.009930077225683606
+ }
+]

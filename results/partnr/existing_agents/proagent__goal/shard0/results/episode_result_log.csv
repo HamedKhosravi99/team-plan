@@ -1,0 +1,20 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+48,Move the electric kettle from the kitchen to the entryway. Move the lamp from the living room to the entryway. Move the backpack from the bedroom to the entryway. Move the candle from the entryway to the living room.,51.0,51.0,0,3474.1471214294434,10730.0,0.5,0.0
+38,Move the toy fire truck from the living room to the bedroom and put it on the bedside table.,8.0,45.0,0,2728.8941214084625,19986.0,1.0,1.0
+46,"Help me clean up the entryway. Place the phone, watch, and keychain on the dining table.",51.0,16.0,0,1264.5408411026,1223.0,0.6666666666666666,0.0
+44,Move the phone to the bedroom table. Take the backpack and ball to the bedroom chest of drawers and place them inside.,51.0,51.0,0,3542.478217601776,11951.0,0.0,0.0
+28,Help me move the plant and its saucer from the table in the bedroom to the table in the living room.,16.0,23.0,0,744.5316243171692,1945.0,1.0,1.0
+34,"Help me move some objects from the living room to the bedroom. First, take the credit card from the coffee table and place it on the bedside table. Then, bring the handbag from the chair and place it on the bed. Finally, take the cushion from the chair and place it on the bed.",51.0,17.0,0,1547.0372993946075,2567.0,0.0,0.0
+42,Help me tidy up the bedroom. Move one of the toy vehicles and the toy animal to the other chest of drawers. Leave the toy construction set where it is.,51.0,13.0,0,1335.5352065563202,1669.0,0.6666666666666666,0.0
+26,"Help me move some objects from the hallway to the bedroom. Place the picture frame, spectacles, and apple on the bedroom table.",51.0,43.0,0,4479.287011146545,19996.0,0.0,0.0
+40,Move the toy fire truck to the bedroom table. Move the toy airplane to the living room table.,5.0,51.0,0,1392.129165172577,2526.0,0.5,0.0
+20,Move the plant and plant saucer from the bedroom to the hallway. Place the them on the table.,18.0,11.0,0,678.6276831626892,2554.0,1.0,1.0
+24,Help me move the toy fire truck to the shelves in the mud room and put the two toy bees on the table in the bedroom. Can you also move the picture frame to a different bedroom table?,51.0,27.0,0,4140.7125334739685,19994.0,0.0,0.0
+22,Help me move an apple and a spoon from the hallway to the bathroom. Place them on the table with the spoon next to the apple.,8.0,51.0,0,2508.0055577754974,7344.0,0.0,0.0
+36,"Help me move some toys and a plant from the bedroom to the living room. Take the toy airplane, toy bee, and plant saucer from the bedroom table and put them on the table in the living room.",51.0,31.0,0,3767.418881416321,19989.0,0.0,0.0
+48,Move the electric kettle from the kitchen to the entryway. Move the lamp from the living room to the entryway. Move the backpack from the bedroom to the entryway. Move the candle from the entryway to the living room.,51.0,51.0,0,3163.3742434978485,10730.0,0.5,0.0
+38,Move the toy fire truck from the living room to the bedroom and put it on the bedside table.,8.0,45.0,0,2374.5656259059906,19986.0,1.0,1.0
+46,"Help me clean up the entryway. Place the phone, watch, and keychain on the dining table.",51.0,51.0,0,2164.7964947223663,655.0,0.0,0.0
+44,Move the phone to the bedroom table. Take the backpack and ball to the bedroom chest of drawers and place them inside.,47.0,47.0,0,4041.4506278038025,20000.0,0.0,0.0
+28,Help me move the plant and its saucer from the table in the bedroom to the table in the living room.,51.0,11.0,0,1279.7652480602264,1017.0,0.5,0.0
+34,"Help me move some objects from the living room to the bedroom. First, take the credit card from the coffee table and place it on the bedside table. Then, bring the handbag from the chair and place it on the bed. Finally, take the cushion from the chair and place it on the bed.",51.0,17.0,0,1778.3244154453278,2696.0,0.0,0.0

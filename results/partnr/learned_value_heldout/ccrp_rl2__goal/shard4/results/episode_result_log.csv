@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+58,Move the phone from the coffee table to the dining table in the dining room.,35.0,9.0,0,1145.4032413959503,20000.0,1.0,1.0
+64,Swap the toy vehicle and toy construction set to new chests of drawers in the bedroom.,51.0,5.0,0,1255.32208943367,11856.0,1.0,1.0
+70,Move the toy vehicle and toy animal to the chair in the living room.,13.0,14.0,0,321.2207052707672,1270.0,1.0,1.0
+52,"Help me move my toys from the bedroom to the living room. Place the toy vehicle, toy animal, and toy fruits on the table in the living room.",51.0,51.0,0,796.045895576477,3122.0,1.0,1.0
+76,Help me organize the toys in the bedroom. Move the toy fire truck to the chest of drawers where the toy animal started. Put the toy animal and the ball in the chest of drawers where the toy fire truck was.,51.0,51.0,0,1152.3676221370697,13852.0,0.3333333333333333,0.0

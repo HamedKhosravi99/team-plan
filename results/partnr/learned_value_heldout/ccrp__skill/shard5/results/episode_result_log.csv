@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+59,"Take the spatula, bowls, and sushi mat from the kitchen to the dining room table.",51.0,51.0,0,1842.6579189300537,15337.0,0.0,0.0
+65,Help me move the sushi mat and toy vehicle from the living room to the entryway.,51.0,45.0,0,1828.1694905757904,19991.0,0.0,0.0
+71,"Help me move the toy fire truck, toy animals, and stuffed toy from the bedroom to the closet chest of drawers.",5.0,51.0,0,597.7685985565186,2160.0,1.0,1.0
+53,Move the sushi mat and toy vehicle from the dining table to the living room table. Move the shoe from the chair to the bedroom table. Place the file sorter on coffee table.,51.0,51.0,0,1184.8855826854706,4157.0,0.25,0.0
+77,Move the stuffed toys from the chair in the bedroom to the stools in the kitchen.,9.0,8.0,0,252.05337643623352,3202.0,0.5,0.0

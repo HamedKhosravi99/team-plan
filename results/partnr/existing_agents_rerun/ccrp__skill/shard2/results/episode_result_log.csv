@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+26,"Help me move some objects from the hallway to the bedroom. Place the picture frame, spectacles, and apple on the bedroom table.",51.0,15.0,0,2191.1433663368225,9774.0,0.6666666666666666,0.0
+44,Move the phone to the bedroom table. Take the backpack and ball to the bedroom chest of drawers and place them inside.,51.0,51.0,0,3617.951586484909,13681.0,0.0,0.0
+32,"Help me move a kettle, a teapot, a spatula, and an egg from the kitchen to the bedroom. Place them on the bedside table.",22.0,43.0,0,1522.7299313545227,6361.0,1.0,1.0
+38,Move the toy fire truck from the living room to the bedroom and put it on the bedside table.,51.0,44.0,0,3048.591161251068,19986.0,0.0,0.0
+20,Move the plant and plant saucer from the bedroom to the hallway. Place the them on the table.,7.0,17.0,0,1260.2594335079193,11038.0,1.0,1.0

@@ -1,0 +1,20 @@
+{
+ "task_share_completed": {
+  "ccrp": 0.6796296296296297,
+  "react_dialog": 0.5607407407407408,
+  "proagent": 0.4062962962962962,
+  "hypminds": 0.42194444444444446
+ },
+ "identical_runs": {
+  "pairs": 60,
+  "success_first": 0.5333333333333333,
+  "success_second": 0.48333333333333334,
+  "disagreements": 25,
+  "won_by_first_only": 14,
+  "won_by_second_only": 11,
+  "same_outcome_share": {
+   "goal": 0.6333333333333333,
+   "skill": 0.5333333333333333
+  }
+ }
+}

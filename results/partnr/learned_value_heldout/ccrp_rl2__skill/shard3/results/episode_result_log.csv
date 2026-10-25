@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+57,Help me clean up the toys in the bedroom. Move both toy vehicles and the toy animal together in a new set of drawers.,51.0,51.0,0,2079.5522322654724,14922.0,0.6666666666666666,0.0
+63,"Help me set up a tea party in the dining room. Move the kettle, spatula, and teapot from the kitchen to the dining table.",7.0,5.0,0,135.21354222297668,1310.0,1.0,1.0
+69,"We should clean up. Let's group the toy fire truck, toy animal, and stuffed toy together on one matching chest of drawers in the bedroom.",38.0,51.0,0,1059.8624103069305,3922.0,1.0,1.0
+51,"Help me move the sushi mat, watch, and tape from the living room table to the bedroom table.",51.0,39.0,0,1374.5475335121155,19994.0,0.3333333333333333,0.0
+75,Move the stuffed toy and toy vehicle to the couch.,9.0,21.0,0,219.00280618667603,1911.0,1.0,1.0

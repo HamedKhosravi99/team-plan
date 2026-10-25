@@ -1,0 +1,24 @@
+defaults:
+  - /llm@plan_config.llm: llama
+  - /instruct@plan_config.instruct: zero_shot_dialog_prompt
+
+_target_: 'habitat_llm_ext.planner.MessageAwareReactPlanner'
+_recursive_: False
+_partial_: True
+
+plan_config:
+    replanning_threshold: 25
+    planning_mode: "cot"
+    constrained_generation: False
+    objects_response: True
+    objects_response_include_states: False
+    centralized: False
+    enable_rag: False
+    rag_dataset_dir: ""
+    rag_data_source_name: ""
+    example_type: "react"
+    injection:
+      kind: none        # none | goal | world | skill | mixed   (applied only when this planner drives the human)
+      seed: 0
+      q_skill: 0.5
+      seed_by: counter      # counter | episode_id

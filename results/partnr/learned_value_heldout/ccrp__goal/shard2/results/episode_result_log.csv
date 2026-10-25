@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+56,Put the spatula and watch on the kitchen counter.,51.0,51.0,0,1107.7178301811218,860.0,0.0,0.0
+62,"Move the candle, vase, and plant from the coffee table to the dining table.",51.0,51.0,0,1528.9539833068848,11749.0,1.0,1.0
+68,Put the toy fire truck and toy fruits in another chest of drawers in the bedroom together.,16.0,51.0,0,469.5213739871979,1957.0,0.5,0.0
+50,"Move the sushi mat, ramekin, and toy vehicle from the living room table to the dining room table.",46.0,51.0,0,1096.990519285202,19980.0,0.3333333333333333,0.0
+74,Take the phone from the living room and put it on the bedside table.,4.0,13.0,0,147.65290307998657,2305.0,1.0,1.0

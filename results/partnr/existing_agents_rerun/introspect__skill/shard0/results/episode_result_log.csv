@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+30,Help me move my laptop and folder from the hallway to the bedroom. Place them on the table.,3.0,6.0,0,229.53929376602173,1686.0,1.0,1.0
+36,"Help me move some toys and a plant from the bedroom to the living room. Take the toy airplane, toy bee, and plant saucer from the bedroom table and put them on the table in the living room.",41.0,8.0,0,2580.702310562134,20000.0,0.75,0.0
+42,Help me tidy up the bedroom. Move one of the toy vehicles and the toy animal to the other chest of drawers. Leave the toy construction set where it is.,7.0,51.0,0,1371.916536808014,3400.0,1.0,1.0
+48,Move the electric kettle from the kitchen to the entryway. Move the lamp from the living room to the entryway. Move the backpack from the bedroom to the entryway. Move the candle from the entryway to the living room.,51.0,8.0,0,2380.6626727581024,10850.0,1.0,1.0
+24,Help me move the toy fire truck to the shelves in the mud room and put the two toy bees on the table in the bedroom. Can you also move the picture frame to a different bedroom table?,51.0,51.0,0,3642.1290378570557,19061.0,0.25,0.0

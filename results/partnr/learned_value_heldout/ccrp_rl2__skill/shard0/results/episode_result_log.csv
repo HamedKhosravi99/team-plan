@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+60,"Move the sushi mat, ramekin, and spoon from the dining room table to the entryway table.",51.0,51.0,0,1494.4541819095612,3339.0,0.6666666666666666,0.0
+66,Can you help me move the candle from the table to the couch? Also let's place the cushion from the couch on the living room table.,11.0,22.0,0,549.4856762886047,4087.0,0.5,0.0
+72,Move all the ramekins and potatoes from the counter to the table in the living room.,51.0,51.0,0,1454.8212473392487,2432.0,0.2,0.0
+54,Move the kettle and electric kettle from the kitchen counter to the entryway table.,16.0,51.0,0,885.3835754394531,8821.0,1.0,1.0
+78,Put the toy food and the toy fire truck on the other chest of drawers in the bedroom.,51.0,51.0,0,679.7149784564972,778.0,0.0,0.0

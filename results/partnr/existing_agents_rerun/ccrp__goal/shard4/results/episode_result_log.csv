@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+28,Help me move the plant and its saucer from the table in the bedroom to the table in the living room.,51.0,18.0,0,1093.717449426651,2599.0,0.5,0.0
+34,"Help me move some objects from the living room to the bedroom. First, take the credit card from the coffee table and place it on the bedside table. Then, bring the handbag from the chair and place it on the bed. Finally, take the cushion from the chair and place it on the bed.",39.0,21.0,0,3378.6463174819946,19985.0,0.6666666666666666,0.0
+46,"Help me clean up the entryway. Place the phone, watch, and keychain on the dining table.",7.0,9.0,0,488.17719435691833,2790.0,1.0,1.0
+40,Move the toy fire truck to the bedroom table. Move the toy airplane to the living room table.,8.0,51.0,0,1638.4151077270508,2616.0,1.0,1.0
+22,Help me move an apple and a spoon from the hallway to the bathroom. Place them on the table with the spoon next to the apple.,8.0,17.0,0,457.32362365722656,967.0,1.0,1.0

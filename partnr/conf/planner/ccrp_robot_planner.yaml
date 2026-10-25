@@ -1,0 +1,66 @@
+defaults:
+  - /llm@plan_config.llm: llama
+  - /instruct@plan_config.instruct: zero_shot_dialog_prompt
+
+_target_: 'habitat_llm_ext.planner.CCRPRobotPlanner'
+_recursive_: False
+_partial_: True
+
+plan_config:
+    replanning_threshold: 25
+    planning_mode: "cot"
+    constrained_generation: False
+    objects_response: True
+    objects_response_include_states: False
+    centralized: False
+    enable_rag: False
+    rag_dataset_dir: ""
+    rag_data_source_name: ""
+    example_type: "react"
+    injection:
+      kind: none
+      seed: 0
+      q_skill: 0.5
+      seed_by: counter      # counter | episode_id
+    ccrp:
+      mode: ccrp              # ccrp | ccrp_rl | partner_blind | never | always_takeover | protocol
+      rl_value_path: null     # ccrp_rl: path of the learned value (null: habitat_llm_ext/data/value_partnr.pkl)
+      tier: E
+      eps: 0.0
+      alpha: 0.1
+      max_interventions: 2               # takeovers per episode
+      max_messages: 2                    # clarify / align / query per episode
+      step_budget: 8000                  # simulator steps (typical episode length; the clock is the sim step)
+      min_gap_steps: 400                 # simulator steps between interventions
+      min_iter_before_intervention: 600  # the partner's first Explore takes a few hundred steps
+      directive_takeover: false          # v3: seen objects are rearranged directly (oracle skill); unseen ones go to the
+                                         # ReAct planner as a directive (v2 pilot: true, every takeover was a directive)
+      takeover_only_when_own_done: true  # the robot finishes its own responsibilities before taking over
+      monitor: true                      # ReAct says Done while partner work is open -> Wait and keep watching
+      silent_messages: true              # v4: reminders / locations / queries go straight to the partner; the robot's
+                                         # actions and prompt are not touched (v2/v3: a robot action plus a prompt note)
+      own_check: true                    # v4: before stopping, the robot's own unfinished checkable responsibilities are
+                                         # completed (direct Rearrange for seen objects, directive otherwise)
+      budget_guard: false                # v5: once the robot has used budget_guard_frac of its planning calls, finish its own
+                                         # unfinished work directly; half the calls count like half the step budget
+      budget_guard_frac: 0.7
+      search_unseen: false               # v7: the coordinator explores unexplored rooms to find objects it has not located
+      self_first: false                  # v7: decisions on the robot's own work are not held back by the partner wait
+      blind_scoring: mean_field          # partner_blind: mean_field (marginal rates only, v3) | product (E[u]E[L], v2 pilot)
+      max_waits: 25
+      model:
+        base_rate: 0.85
+        goal_confused_rate: 0.05        # completion of a responsibility dropped from the partner's goal
+        skill_fail_factor: 0.35         # completion factor under a failing skill
+        eta_self: 0.75                  # law-structured model: direct execution of own work
+        own_rate: 0.9
+        eta_takeover: 0.75
+        prior_bad: {goal: 0.2, obj: 0.1, skill: 0.15, room: 0.1}   # v3: the room cause takes part of the object mass
+        room_component: true             # v3: shared wrong belief about where the partner's objects are
+        cost_takeover: 0.08
+        cost_message: 0.03
+        opportunity_cost_per_own: 0.06
+        inspect: false                   # variant B: watch for the mid-budget progress evidence before acting
+        self_model: false                # law-structured Team-Plan: the robot's own loop as a hidden cause, direct execution
+        derail_prob: 0.0                 # law-structured Team-Plan: P(a message derails the partner), 0.06 on tuning episodes
+        cost_inspect: 0.01

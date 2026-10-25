@@ -1,0 +1,5 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+36,"Help me move some toys and a plant from the bedroom to the living room. Take the toy airplane, toy bee, and plant saucer from the bedroom table and put them on the table in the living room.",38.0,32.0,0,3663.925588607788,20000.0,0.0,0.0
+42,Help me tidy up the bedroom. Move one of the toy vehicles and the toy animal to the other chest of drawers. Leave the toy construction set where it is.,6.0,11.0,0,448.1409468650818,1049.0,1.0,1.0
+48,Move the electric kettle from the kitchen to the entryway. Move the lamp from the living room to the entryway. Move the backpack from the bedroom to the entryway. Move the candle from the entryway to the living room.,51.0,7.0,0,2170.1214637756348,4755.0,0.75,0.0
+24,Help me move the toy fire truck to the shelves in the mud room and put the two toy bees on the table in the bedroom. Can you also move the picture frame to a different bedroom table?,51.0,15.0,0,2503.022596359253,9759.0,0.75,0.0

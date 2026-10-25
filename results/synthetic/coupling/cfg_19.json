@@ -1,0 +1,30 @@
+{
+ "index": 19,
+ "structure": "or",
+ "K": 4,
+ "T": 3,
+ "n_objects": 1,
+ "p_obj_bad": 0.5,
+ "n": 200,
+ "seconds": 144.93982601165771,
+ "success": {
+  "reference": 0.985,
+  "partner_blind": 0.98,
+  "never": 0.715,
+  "oracle": 1.0
+ },
+ "reward": {
+  "reference": 0.9322,
+  "partner_blind": 0.9272999999999999,
+  "never": 0.715,
+  "oracle": 0.9637499999999999
+ },
+ "gap_success": 0.005,
+ "gap_success_se": 0.005000000000000001,
+ "gap_reward": 0.004899999999999975,
+ "gap_reward_se": 0.005468038701050031,
+ "disagreement_rate": 0.23166666666666666,
+ "decisions": 600,
+ "value_error_first": 0.024154443880536426,
+ "value_error_mean": 0.025018432248917727
+}

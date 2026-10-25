@@ -1,0 +1,138 @@
+{
+ "Short horizon": {
+  "Never intervene": {
+   "reward": 0.155,
+   "rollouts": 0.0,
+   "success": 0.155
+  },
+  "Cause-blind, one step": {
+   "reward": 0.25895,
+   "rollouts": 0.0,
+   "success": 0.405
+  },
+  "Cause-aware, exact one-step": {
+   "reward": 0.2933,
+   "rollouts": 0.0,
+   "success": 0.405
+  },
+  "QMDP-style multi-step": {
+   "reward": 0.27764999999999995,
+   "rollouts": 0.0,
+   "success": 0.365
+  },
+  "Learned value, greedy": {
+   "reward": 0.30005000000000004,
+   "rollouts": 0.0,
+   "success": 0.41
+  },
+  "Team-Plan": {
+   "reward": 0.29980000000000007,
+   "rollouts": 101.44
+  },
+  "BO at every decision": {
+   "reward": 0.2939,
+   "rollouts": 256.0,
+   "success": 0.385
+  },
+  "Full information": {
+   "reward": 0.37795,
+   "rollouts": 0.0,
+   "success": 0.43
+  }
+ },
+ "Long horizon": {
+  "Never intervene": {
+   "reward": 0.15,
+   "rollouts": 0.0,
+   "success": 0.15
+  },
+  "Cause-blind, one step": {
+   "reward": 0.2834999999999999,
+   "rollouts": 0.0,
+   "success": 0.47
+  },
+  "Cause-aware, exact one-step": {
+   "reward": 0.3134333333333333,
+   "rollouts": 0.0,
+   "success": 0.43333333333333335
+  },
+  "QMDP-style multi-step": {
+   "reward": 0.3284,
+   "rollouts": 0.0,
+   "success": 0.4166666666666667
+  },
+  "Learned value, greedy": {
+   "reward": 0.39966666666666667,
+   "rollouts": 0.0,
+   "success": 0.7266666666666667
+  },
+  "Team-Plan": {
+   "reward": 0.3945333333333334,
+   "rollouts": 106.24
+  },
+  "BO at every decision": {
+   "reward": 0.3975666666666666,
+   "rollouts": 640.0,
+   "success": 0.7033333333333334
+  },
+  "Full information": {
+   "reward": 0.4493,
+   "rollouts": 0.0,
+   "success": 0.5966666666666667
+  }
+ },
+ "Large": {
+  "Never intervene": {
+   "reward": 0.225,
+   "rollouts": 0.0,
+   "success": 0.225
+  },
+  "Cause-blind, one step": {
+   "reward": 0.4216500000000001,
+   "rollouts": 0.0,
+   "success": 0.565
+  },
+  "Cause-aware, exact one-step": {
+   "reward": 0.45055,
+   "rollouts": 0.0,
+   "success": 0.575
+  },
+  "QMDP-style multi-step": {
+   "reward": 0.46685000000000004,
+   "rollouts": 0.0,
+   "success": 0.54
+  },
+  "Learned value, greedy": {
+   "reward": 0.45635000000000003,
+   "rollouts": 0.0,
+   "success": 0.54
+  },
+  "Team-Plan": {
+   "reward": 0.45065,
+   "rollouts": 57.0
+  },
+  "BO at every decision": {
+   "reward": 0.4332000000000001,
+   "rollouts": 320.0,
+   "success": 0.505
+  },
+  "Full information": {
+   "reward": 0.5328,
+   "rollouts": 0.0,
+   "success": 0.58
+  }
+ },
+ "long_horizon_caption": {
+  "greedy_minus_one_step": [
+   0.08623333333333336,
+   0.024031112235147756
+  ],
+  "greedy_minus_qmdp": [
+   0.0712666666666667,
+   0.024812635385378642
+  ],
+  "greedy_successes": 218,
+  "one_step_successes": 130,
+  "episodes": 300
+ }
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "Team-Plan: code and results"
+type: software
+license: MIT
+repository-code: "https://github.com/HamedKhosravi99/team-plan"
+authors:
+  - family-names: Khosravi
+    given-names: Hamed
+    affiliation: Georgia Institute of Technology
+  - family-names: Huo
+    given-names: Xiaoming
+    affiliation: Georgia Institute of Technology
+preferred-citation:
+  type: article
+  title: "When Should an AI Agent Step In? Reinforcement Learning and Evaluation under Partner Uncertainty"
+  year: 2026
+  authors:
+    - family-names: Khosravi
+      given-names: Hamed
+      affiliation: Georgia Institute of Technology
+    - family-names: Huo
+      given-names: Xiaoming
+      affiliation: Georgia Institute of Technology

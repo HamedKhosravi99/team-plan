@@ -1,0 +1,16 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+49,Move a toy fruit from the table to the bed.,17.0,21.0,0,1645.97860622406,20000.0,1.0,1.0
+39,"Please put an apple in the fridge, my credit card on the bedside table, and the teapot on the living room table.",51.0,51.0,0,5294.183883666992,17852.0,0.6666666666666666,0.0
+47,"Move the sushi mat, spatula, and bowl from the dining room table to the kitchen counter.",51.0,51.0,0,2559.0604877471924,2525.0,0.3333333333333333,0.0
+45,"Help me set the table for people in the dining room. Place plates, glasses, and forks at each setting. There should be four.",51.0,51.0,0,4748.243815898895,18388.0,0.0,0.0
+29,"Help me move some items from the bedroom to the hallway. Place the credit card, backpack, and sushi mat on the hallway table.",22.0,51.0,0,3140.2789800167084,13811.0,0.6666666666666666,0.0
+43,"Help me create a relaxing atmosphere in the living room. Place the phone, phone stand, and candle on the coffee table?",5.0,51.0,0,1242.7751922607422,1597.0,0.3333333333333333,0.0
+35,Help me prepare lunch on the counter. Move the two toy vehicles and the toy animal to the counter. Leave the spoon where it is.,51.0,51.0,0,4780.95379948616,17475.0,1.0,1.0
+33,Move the picture frame from the bedside table to the dresser in the bedroom.,15.0,51.0,0,3389.7490355968475,19642.0,0.0,0.0
+31,"Help me move the teapot, kettle, and hand towel from the kitchen to the living room. They all can go on the table.",51.0,6.0,0,1457.1911520957947,3233.0,0.6666666666666666,0.0
+27,"Put spoons, forks, and knives on the bedside table in the bedroom. Three of each, please.",51.0,51.0,0,5117.8694133758545,18879.0,0.1111111111111111,0.0
+41,"Bring two mugs, two bread, and kettle from the kitchen to the table in the living room.",18.0,51.0,0,1627.0617370605469,1733.0,0.6,0.0
+21,Place the toy airplane and toy bee on another bedroom table. Put the plant saucer on the same bedside table. Move the cushion to a different bedroom chair.,17.0,51.0,0,1550.572728395462,2596.0,0.75,0.0
+25,Bring the toy fire truck from the bedroom to the living room and place it on the white table.,51.0,51.0,0,2588.7088046073914,17835.0,0.0,0.0
+23,Help me move some things around. Put the sponge on the bedside table. Move the action figures to the stand in the living room. Put the plant saucer on the kitchen counter.,51.0,51.0,0,2156.746958732605,16917.0,0.0,0.0
+37,"Place the phone on a glass table. Then, put the picture frame on a glass table. Finally, put the spectacles on a glass table.",51.0,35.0,0,1620.7844777107239,19997.0,0.0,0.0

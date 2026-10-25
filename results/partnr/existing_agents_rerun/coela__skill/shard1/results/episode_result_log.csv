@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+31,"Help me move the teapot, kettle, and hand towel from the kitchen to the living room. They all can go on the table.",5.0,51.0,0,888.006894826889,1855.0,0.6666666666666666,0.0
+37,"Place the phone on a glass table. Then, put the picture frame on a glass table. Finally, put the spectacles on a glass table.",31.0,51.0,0,2604.82737493515,19986.0,0.0,0.0
+43,"Help me create a relaxing atmosphere in the living room. Place the phone, phone stand, and candle on the coffee table?",32.0,27.0,0,623.0855886936188,1979.0,1.0,1.0
+49,Move a toy fruit from the table to the bed.,9.0,9.0,0,607.3053426742554,4689.0,1.0,1.0
+25,Bring the toy fire truck from the bedroom to the living room and place it on the white table.,8.0,8.0,0,321.7270333766937,3728.0,1.0,1.0

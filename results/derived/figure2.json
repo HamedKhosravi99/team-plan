@@ -1,0 +1,164 @@
+[
+ {
+  "comparison": "ProAgent-style",
+  "run": "existing_agents",
+  "team_plan_config": "ccrp",
+  "baseline_config": "proagent",
+  "failures": "goal and skill",
+  "pairs": 60,
+  "team_plan_success": 0.5333333333333333,
+  "baseline_success": 0.2,
+  "gain_points": 33.33333333333333,
+  "ci95_points": [
+   15.0,
+   51.66666666666667
+  ],
+  "wins": 25,
+  "losses": 5,
+  "mcnemar_p": 0.00032491423189640045
+ },
+ {
+  "comparison": "Hypothetical-Minds-style",
+  "run": "existing_agents",
+  "team_plan_config": "ccrp",
+  "baseline_config": "hypminds",
+  "failures": "goal and skill",
+  "pairs": 60,
+  "team_plan_success": 0.5333333333333333,
+  "baseline_success": 0.23333333333333334,
+  "gain_points": 30.0,
+  "ci95_points": [
+   10.0,
+   50.0
+  ],
+  "wins": 26,
+  "losses": 8,
+  "mcnemar_p": 0.0029350556433200836
+ },
+ {
+  "comparison": "CoELA-style",
+  "run": "existing_agents_rerun",
+  "team_plan_config": "ccrp",
+  "baseline_config": "coela",
+  "failures": "goal and skill",
+  "pairs": 60,
+  "team_plan_success": 0.48333333333333334,
+  "baseline_success": 0.2833333333333333,
+  "gain_points": 20.0,
+  "ci95_points": [
+   0.0,
+   40.0
+  ],
+  "wins": 21,
+  "losses": 9,
+  "mcnemar_p": 0.04277394525706768
+ },
+ {
+  "comparison": "Ask-when-unsure",
+  "run": "existing_agents_rerun",
+  "team_plan_config": "ccrp",
+  "baseline_config": "introspect",
+  "failures": "goal and skill",
+  "pairs": 60,
+  "team_plan_success": 0.48333333333333334,
+  "baseline_success": 0.38333333333333336,
+  "gain_points": 10.0,
+  "ci95_points": [
+   -10.0,
+   30.0
+  ],
+  "wins": 18,
+  "losses": 12,
+  "mcnemar_p": 0.361594608053565
+ },
+ {
+  "comparison": "ReAct + dialogue",
+  "run": "existing_agents",
+  "team_plan_config": "ccrp",
+  "baseline_config": "react_dialog",
+  "failures": "goal and skill",
+  "pairs": 60,
+  "team_plan_success": 0.5333333333333333,
+  "baseline_success": 0.4166666666666667,
+  "gain_points": 11.666666666666666,
+  "ci95_points": [
+   -3.3333333333333335,
+   25.0
+  ],
+  "wins": 13,
+  "losses": 6,
+  "mcnemar_p": 0.1670684814453125
+ },
+ {
+  "comparison": "LLawCo-style",
+  "run": "agents_2026",
+  "team_plan_config": "ccrp_laws",
+  "baseline_config": "llawco",
+  "failures": "goal and skill",
+  "pairs": 60,
+  "team_plan_success": 0.5666666666666667,
+  "baseline_success": 0.4166666666666667,
+  "gain_points": 15.0,
+  "ci95_points": [
+   1.6666666666666667,
+   28.333333333333332
+  ],
+  "wins": 15,
+  "losses": 6,
+  "mcnemar_p": 0.0783538818359375
+ },
+ {
+  "comparison": "ProACT-style",
+  "run": "agents_2026",
+  "team_plan_config": "ccrp_laws",
+  "baseline_config": "proact",
+  "failures": "goal and skill",
+  "pairs": 60,
+  "team_plan_success": 0.5666666666666667,
+  "baseline_success": 0.2833333333333333,
+  "gain_points": 28.333333333333332,
+  "ci95_points": [
+   15.0,
+   41.66666666666667
+  ],
+  "wins": 21,
+  "losses": 4,
+  "mcnemar_p": 0.0009105205535888672
+ },
+ {
+  "comparison": "one-step table",
+  "run": "learned_value_heldout",
+  "team_plan_config": "ccrp_rl2",
+  "baseline_config": "ccrp",
+  "failures": "goal and skill",
+  "pairs": 60,
+  "team_plan_success": 0.6166666666666667,
+  "baseline_success": 0.5,
+  "gain_points": 11.666666666666666,
+  "ci95_points": [
+   -1.6666666666666667,
+   25.0
+  ],
+  "wins": 16,
+  "losses": 9,
+  "mcnemar_p": 0.2295229434967041
+ },
+ {
+  "comparison": "one-step table, goal failures",
+  "run": "learned_value_heldout",
+  "team_plan_config": "ccrp_rl2",
+  "baseline_config": "ccrp",
+  "failures": "goal",
+  "pairs": 30,
+  "team_plan_success": 0.8,
+  "baseline_success": 0.5666666666666667,
+  "gain_points": 23.333333333333332,
+  "ci95_points": [
+   3.3333333333333335,
+   43.333333333333336
+  ],
+  "wins": 9,
+  "losses": 2,
+  "mcnemar_p": 0.0654296875
+ }
+]

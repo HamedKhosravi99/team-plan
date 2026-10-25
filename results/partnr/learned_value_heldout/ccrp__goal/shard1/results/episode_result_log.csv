@@ -1,0 +1,6 @@
+episode_id,instruction,replanning_count_0,replanning_count_1,run_id,runtime,sim_step_count,task_percent_complete,task_state_success
+61,"Help me set up a sushi bar in the dining room. Place the sushi mat, spatula, and bowl on the table.",51.0,10.0,0,684.3694994449615,2267.0,0.3333333333333333,0.0
+67,"Help me move the toy vehicle, toy construction set, and toy bee all to the same chest of drawers in the bedroom.",3.0,16.0,0,258.6713967323303,1457.0,1.0,1.0
+73,Move the toy fire truck and the stuffed toys to new chest of drawers. Move the ball to another chest of drawers.,23.0,21.0,0,643.6613314151764,3290.0,0.75,0.0
+55,"Help me clean up the toys in the bedroom. Put away the toy vehicle, toy construction set, and action figure on the bedroom table.",18.0,10.0,0,305.47283720970154,1627.0,1.0,1.0
+79,Move the toy fire truck to the chest of drawers. Put the toy food items in a new chest of drawers. Place the stuffed toy on the bed.,51.0,19.0,0,1017.3896565437317,5091.0,0.2,0.0

@@ -1,0 +1,2327 @@
+{
+ "targets": {
+  "v4/goal": [
+   0.493,
+   0.058
+  ],
+  "v4/skill": [
+   0.5,
+   0.071
+  ],
+  "rl1/goal": [
+   0.633,
+   0.089
+  ],
+  "rl1/skill": [
+   0.4,
+   0.112
+  ],
+  "v4/late": [
+   0.4,
+   0.047
+  ],
+  "rl1/late": [
+   0.32,
+   0.073
+  ]
+ },
+ "rows": [
+  {
+   "world": {
+    "T_h": null,
+    "rate_scale": 1.0,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.08,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "pred": {
+    "v4/goal": 0.6162828750000001,
+    "v4/goal_take": 0.498,
+    "v4/skill": 0.5608667812500001,
+    "v4/skill_take": 0.9506666666666667,
+    "rl1/goal": 0.5880435,
+    "rl1/goal_take": 0.96,
+    "rl1/skill": 0.5702832187500001,
+    "rl1/skill_take": 0.938,
+    "v4/late": 0.353,
+    "rl1/late": 0.43866666666666665
+   },
+   "loss": 11.462169979146621,
+   "n": 1500
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "pred": {
+    "v4/goal": 0.50676628125,
+    "v4/goal_take": 0.44333333333333336,
+    "v4/skill": 0.5558689687500001,
+    "v4/skill_take": 0.9693333333333334,
+    "rl1/goal": 0.57475884375,
+    "rl1/goal_take": 0.9846666666666667,
+    "rl1/skill": 0.55425271875,
+    "rl1/skill_take": 0.9833333333333333,
+    "v4/late": 0.39766666666666667,
+    "rl1/late": 0.31533333333333335
+   },
+   "loss": 3.0071452291426337,
+   "coarse_loss": 3.1911430498097513,
+   "n": 1500
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "pred": {
+    "v4/goal": 0.501661875,
+    "v4/goal_take": 0.7213333333333334,
+    "v4/skill": 0.54809653125,
+    "v4/skill_take": 0.9373333333333334,
+    "rl1/goal": 0.57182259375,
+    "rl1/goal_take": 0.9946666666666667,
+    "rl1/skill": 0.5560227187500001,
+    "rl1/skill_take": 0.9826666666666667,
+    "v4/late": 0.3913333333333333,
+    "rl1/late": 0.361
+   },
+   "loss": 3.2437581446729373,
+   "coarse_loss": 3.488715646292423,
+   "n": 1500
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "pred": {
+    "v4/goal": 0.5063286562500001,
+    "v4/goal_take": 0.59,
+    "v4/skill": 0.5555753437500001,
+    "v4/skill_take": 0.97,
+    "rl1/goal": 0.57327384375,
+    "rl1/goal_take": 0.988,
+    "rl1/skill": 0.55425271875,
+    "rl1/skill_take": 0.9833333333333333,
+    "v4/late": 0.371,
+    "rl1/late": 0.312
+   },
+   "loss": 3.4054188662687035,
+   "coarse_loss": 3.5200934285997394,
+   "n": 1500
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "pred": {
+    "v4/goal": 0.50847975,
+    "v4/goal_take": 0.44133333333333336,
+    "v4/skill": 0.568611,
+    "v4/skill_take": 0.9413333333333334,
+    "rl1/goal": 0.5749613437500001,
+    "rl1/goal_take": 0.9846666666666667,
+    "rl1/skill": 0.5584677187500001,
+    "rl1/skill_take": 0.9733333333333334,
+    "v4/late": 0.3933333333333333,
+    "rl1/late": 0.313
+   },
+   "loss": 3.461557394895899,
+   "coarse_loss": 3.672255757274068,
+   "n": 1500
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "pred": {
+    "v4/goal": 0.49066687500000006,
+    "v4/goal_take": 0.62,
+    "v4/skill": 0.54797653125,
+    "v4/skill_take": 0.9353333333333333,
+    "rl1/goal": 0.57327384375,
+    "rl1/goal_take": 0.99,
+    "rl1/skill": 0.5560227187500001,
+    "rl1/skill_take": 0.9826666666666667,
+    "v4/late": 0.415,
+    "rl1/late": 0.3626666666666667
+   },
+   "loss": 3.2926554821866745,
+   "coarse_loss": 3.7789709447853017,
+   "n": 1500
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "pred": {
+    "v4/goal": 0.5434399687500001,
+    "v4/goal_take": 0.6533333333333333,
+    "v4/skill": 0.5519101875000001,
+    "v4/skill_take": 0.9266666666666666,
+    "rl1/goal": 0.58032740625,
+    "rl1/goal_take": 0.9833333333333333,
+    "rl1/skill": 0.55941496875,
+    "rl1/skill_take": 0.9746666666666667,
+    "v4/late": 0.38533333333333336,
+    "rl1/late": 0.3516666666666667
+   },
+   "loss": 3.9525809350808334,
+   "coarse_loss": 3.9221961082932393,
+   "n": 1500
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "pred": {
+    "v4/goal": 0.5045153437500001,
+    "v4/goal_take": 0.7226666666666667,
+    "v4/skill": 0.566949,
+    "v4/skill_take": 0.908,
+    "rl1/goal": 0.57202509375,
+    "rl1/goal_take": 0.9946666666666667,
+    "rl1/skill": 0.5637289687500001,
+    "rl1/skill_take": 0.968,
+    "v4/late": 0.378,
+    "rl1/late": 0.35433333333333333
+   },
+   "loss": 3.9752943663313083,
+   "coarse_loss": 3.9366237425439743,
+   "n": 1500
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "pred": {
+    "v4/goal": 0.4937903437500001,
+    "v4/goal_take": 0.62,
+    "v4/skill": 0.5672340000000001,
+    "v4/skill_take": 0.904,
+    "rl1/goal": 0.5734763437500001,
+    "rl1/goal_take": 0.99,
+    "rl1/skill": 0.5638639687500001,
+    "rl1/skill_take": 0.9673333333333334,
+    "v4/late": 0.40166666666666667,
+    "rl1/late": 0.356
+   },
+   "loss": 3.7292472241176613,
+   "coarse_loss": 4.013502912759752,
+   "n": 1500
+  }
+ ],
+ "best": {
+  "world": {
+   "T_h": 19,
+   "rate_scale": 0.75,
+   "persist": 0.5,
+   "eta": 0.75,
+   "qs": 0.3,
+   "own_rate": 0.3,
+   "skill_relief": 0.0,
+   "repair": 0.85,
+   "q0": 0.03
+  },
+  "pred": {
+   "v4/goal": 0.50676628125,
+   "v4/goal_take": 0.44333333333333336,
+   "v4/skill": 0.5558689687500001,
+   "v4/skill_take": 0.9693333333333334,
+   "rl1/goal": 0.57475884375,
+   "rl1/goal_take": 0.9846666666666667,
+   "rl1/skill": 0.55425271875,
+   "rl1/skill_take": 0.9833333333333333,
+   "v4/late": 0.39766666666666667,
+   "rl1/late": 0.31533333333333335
+  },
+  "loss": 3.0071452291426337,
+  "coarse_loss": 3.1911430498097513,
+  "n": 1500
+ },
+ "coarse": [
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 3.1911430498097513
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 3.488715646292423
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 3.5200934285997394
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 3.672255757274068
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 3.7789709447853017
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 3.9221961082932393
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 3.9366237425439743
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 4.013502912759752
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 4.0239425049171365
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 4.028703006293816
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 4.029880511425409
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 4.124352873304217
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 4.124433393346832
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 4.147043207468034
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 4.163410733875808
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 4.3231140079424115
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 4.423175544017472
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 4.521443964543994
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 4.612790479634133
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 4.7210213347895245
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 4.735347926696757
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 4.743350533814776
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 4.752833983068953
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 4.784056949419606
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 4.845726777223059
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 4.896483104763696
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 4.90127681391301
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 4.942573115658419
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 4.946690415497066
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 4.956044725921496
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 5.04255018095806
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 5.146108524023234
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 5.2347121432530015
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 5.257162842681867
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 5.29308600041458
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 5.298715870376221
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 5.355038884899217
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 5.362794669038013
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 5.37963675433466
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 5.447703437030952
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 5.491692154551058
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 5.585263631949503
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 5.610966083694768
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 5.666535955420394
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 5.668107888275553
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 5.748895228585983
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 5.754547273119007
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 5.819391186217554
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 5.852476464153618
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 5.927717379652492
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 5.976640804346708
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 6.064693194263081
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 6.109414314544536
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 6.110341658853037
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 6.195030143343054
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 6.196621426417481
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 6.2631571246146756
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 6.308597949462926
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 6.43203206942588
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 6.458542475665506
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 6.568095807376539
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 6.5757083724964165
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 6.641513714579434
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 6.746866618630179
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 6.762291478169577
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 6.778644568872389
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 6.882180924817175
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 6.902023499475652
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 6.9178810766467915
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 6.930705146051778
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 6.973521621784632
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 6.979808837859281
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 7.032188298898193
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 7.181707085118122
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 7.2918604122298
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 7.39140788565153
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 7.410494461972625
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 7.444862263253386
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 7.531605309539383
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 7.568435384250408
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 7.603220663178315
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.1,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 7.603498826441631
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 7.648106129864722
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 7.6562204856191345
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 7.662924980763982
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 7.663445971622634
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 7.745157837912459
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 7.781511924298258
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 7.905905492107172
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 8.01159885351318
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 8.018346139932502
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 8.035736060040643
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 8.054220957799622
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 8.168015109361633
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 8.324240264011847
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 8.340559464581082
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 8.451393027094113
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 8.610399320191439
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 8.940642413843927
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 8.96423101052173
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 9.091731921399061
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 9.112631643182208
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 9.285191390381188
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 9.285586502851675
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 9.42867126453898
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 9.450654465413264
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 9.53665735976865
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 9.727284138924533
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 9.76158970255259
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 0.1,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 9.8421477471711
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 10.006624964262887
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 10.02859353584483
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 10.070434545664781
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 10.12007071288883
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 10.16474657113708
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 10.601286997034768
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 10.632433130737907
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 10.819826992594612
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 11.044374915716242
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 11.217060248905135
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 0.5,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 11.303923866241684
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 11.492001694261923
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.85,
+    "q0": 0.03
+   },
+   "loss": 11.634810106628368
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 11.800971581943276
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 11.914066706374683
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 12.124065744210073
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 12.229299148075969
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 12.275800445867683
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.75,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 12.573406482327693
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 12.666681821737988
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 13.00057565867966
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 13.513716302152329
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.5,
+    "q0": 0.03
+   },
+   "loss": 13.70355844747323
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 13.868517836795911
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 13.996046540372317
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 14.08626682376926
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 14.30359745913266
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 14.363657336566723
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 14.577120800395905
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 14.606286903502685
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.6,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 14.951322862335177
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 0.5,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 15.04654911815046
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.35,
+    "q0": 0.03
+   },
+   "loss": 15.219924503253837
+  },
+  {
+   "world": {
+    "T_h": 19,
+    "rate_scale": 0.9,
+    "persist": 1.0,
+    "eta": 0.75,
+    "qs": 0.3,
+    "own_rate": 0.3,
+    "skill_relief": 1.0,
+    "repair": 0.2,
+    "q0": 0.03
+   },
+   "loss": 15.660294234994366
+  }
+ ]
+}

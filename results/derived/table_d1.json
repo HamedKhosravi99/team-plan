@@ -1,0 +1,18 @@
+{
+ "Took over at least one assignment": {
+  "wins": 5,
+  "losses": 2
+ },
+ "Sent messages only": {
+  "wins": 5,
+  "losses": 0
+ },
+ "No intervention": {
+  "wins": 3,
+  "losses": 4
+ },
+ "All discordant pairs": {
+  "wins": 13,
+  "losses": 6
+ }
+}

@@ -1,0 +1,41 @@
+# @package _global_
+# Robot = CCRP planner (agent_0), human = message-aware ReAct planner (agent_1) with optional failure injection.
+# Example:
+#   python -m habitat_llm.examples.planner_demo --config-name baselines/ccrp_decentralized.yaml \
+#     habitat.dataset.data_path=data/datasets/partnr_episodes/v0_0/val_mini.json.gz \
+#     evaluation.agents.agent_1.planner.plan_config.injection.kind=world \
+#     evaluation.agents.agent_0.planner.plan_config.ccrp.mode=ccrp
+
+defaults:
+  - /examples/planner_multi_agent_demo_config
+  - override /evaluation: decentralized_evaluation_runner_multi_agent
+  - override /planner@evaluation.agents.agent_0.planner: ccrp_robot_planner
+  - override /instruct@evaluation.agents.agent_0.planner.plan_config.instruct: zero_shot_dialog_prompt
+  - override /agent@evaluation.agents.agent_0.config: oracle_rearrange_agent_motortoolsonly
+  - override /planner@evaluation.agents.agent_1.planner: message_aware_react_planner
+  - override /instruct@evaluation.agents.agent_1.planner.plan_config.instruct: zero_shot_dialog_prompt
+  - override /agent@evaluation.agents.agent_1.config: oracle_rearrange_object_states_agent_motortoolsonly
+
+agent_asymmetry: True
+world_model:
+  partial_obs: True
+
+evaluation:
+  save_video: False
+  agents:
+    agent_0:
+      planner:
+        plan_config:
+          constrained_generation: False
+          objects_response: True
+          replanning_threshold: 50
+          llm:
+            inference_mode: "hf"
+    agent_1:
+      planner:
+        plan_config:
+          constrained_generation: False
+          objects_response: True
+          replanning_threshold: 50
+          llm:
+            inference_mode: "hf"
